@@ -54,7 +54,7 @@ public class Player : MovingObject
         if (horizontal != 0 || vertical != 0)
         {
             Debug.Log("horizontal:" + horizontal + " vertical: " + vertical);
-            Debug.Log("transform: " + transform);
+            Debug.Log("transform: " + transform.position);
             AttemptMove<Wall>(horizontal, vertical);
         }
     }
